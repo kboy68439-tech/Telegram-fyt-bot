@@ -46,7 +46,7 @@ def get_uptime():
     minutes, seconds = divmod(remainder, 60)
     return f"{days}d {hours}h {minutes}m {seconds}s"
 
-TOKEN = '8777748746:AAHLEYb-aA6Noh0cdoV1lFuqb3uux6Hm2gM'
+TOKEN = '8777748746:AAFOUvuwKm8UHyuQAXWm5XpmOK3ZLRPlNMo'
 OWNER_ID = 6660636738
 ADMIN_ID = 6660636738
 YOUR_USERNAME = '@AKATSUKI_RUL3X'
@@ -2762,4 +2762,5 @@ if __name__ == '__main__':
         except Exception as e:
             logger.critical(f"Unrecoverable polling error: {e}", exc_info=True)
             logger.info("Restarting polling in 30s due to critical error..."); time.sleep(30)
+
         finally: logger.warning("Polling attempt finished. Will restart if in loop."); time.sleep(1)
