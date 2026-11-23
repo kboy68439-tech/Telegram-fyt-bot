@@ -50,7 +50,7 @@ TOKEN = '8777748746:AAFOUvuwKm8UHyuQAXWm5XpmOK3ZLRPlNMo'
 OWNER_ID = 6660636738
 ADMIN_ID = 6660636738
 YOUR_USERNAME = '@AKATSUKI_RUL3X'
-UPDATE_CHANNEL = 'https://t.me/Akatsuki_rulex03'
+UPDATE_CHANNEL = 'https://t.me/Akatsuki_era'
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 UPLOAD_BOTS_DIR = os.path.join(BASE_DIR, 'upload_bots')
 IROTECH_DIR = os.path.join(BASE_DIR, 'inf')
@@ -2764,3 +2764,4 @@ if __name__ == '__main__':
             logger.info("Restarting polling in 30s due to critical error..."); time.sleep(30)
 
         finally: logger.warning("Polling attempt finished. Will restart if in loop."); time.sleep(1)
+
